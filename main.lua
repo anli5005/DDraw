@@ -5,7 +5,7 @@ function Matrix:new(rows, columns)
   obj.rows = rows
   obj.columns = columns
   obj.values = {}
-  for i = 1, rows * columns
+  for i = 1, rows * columns do
     obj.values[i] = 0
   end
 end
